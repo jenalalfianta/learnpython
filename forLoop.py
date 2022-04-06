@@ -13,9 +13,7 @@
 # print(f"Average Height is {round(averageHeight,2)}")
 
 
-a = []
 student_heihts = input("Input a list of student heights ").split()
 for n in range(0, len(student_heihts)):
-    a = int(student_heihts[n])
+    student_heihts = int(student_heihts[n])
 print(student_heihts)
-print(a)
